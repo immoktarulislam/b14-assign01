@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 2%;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-left img {
+    margin: 10px;
+}
+
+.nav-midd a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.nav-right button {
+    background-color: rgb(106, 106, 233);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+header {
+    background-image: url(./assets/banner.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.header-part1 {
+    color: white;
+    width: 50%;
+    position: relative;
+    top: -140px;
+
+}
+
+.header-part1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-part2 {
+    position: relative;
+    bottom: -140px;
+}
+
+.header-part2 button {
+
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/* .hero-details {
+    border: 5px solid green;
+}
+
+.hero-part1 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.hero-part-heading {
+    color: blue;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.hero-part1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.card1 {
+    border: 2px solid rgb(217, 217, 245);
+    margin: 2px;
+    border-radius: 8px;
+    width: 99vh;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.hero-part-heading {
+    color: blue;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* secure & offer part  */
+.secure-heading {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.offer-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.offer-card {
+    background-color: #E5E7EB;
+    margin: 10px;
+    padding: 32px;
+
+}
+
+.offer-card2 {
+    background-color: #0D1B2A;
+    margin: 10px;
+    padding: 32px;
+    color: #FFFFFF;
+}
