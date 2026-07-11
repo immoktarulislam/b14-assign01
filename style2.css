@@ -1,0 +1,17 @@
+.challengeEvents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.challenge1 {
+    border: 2px solid rgb(217, 217, 245);
+    margin: 2px;
+    /* height: 90vh;width: 90vh; */
+    border-radius: 8px;
+    background-image: url(./assets/bcamp1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    padding: 10px;
+}
