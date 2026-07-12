@@ -1,17 +1,91 @@
 .challengeEvents {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .challenge1 {
-    border: 2px solid rgb(217, 217, 245);
     margin: 2px;
-    /* height: 90vh;width: 90vh; */
+    border-radius: 8px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/ai1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    height: 50vh;
+}
+
+.challenge1 p {
+    position: relative;
+    bottom: -100px;
+    left: -62px;
+    font-size: 20px;
+    color: white;
+}
+
+.challenge2 {
+    margin: 2px;
     border-radius: 8px;
     background-image: url(./assets/bcamp1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 10px;
-    padding: 10px;
+    padding: 80px;
+    height: 50vh;
+}
+
+.challenge2 p {
+    position: relative;
+    bottom: -100px;
+    left: -62px;
+    font-size: 20px;
+    color: white;
+}
+
+.challenge3 {
+    margin: 2px;
+    border-radius: 8px;
+    background-image: url(./assets/uiux1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    height: 50vh;
+}
+
+.challenge3 p {
+    position: relative;
+    bottom: -100px;
+    left: -62px;
+    font-size: 20px;
+    color: white;
+}
+
+.challenge4 {
+    margin: 2px;
+    border-radius: 8px;
+    background-image: url(./assets/career1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    height: 50vh;
+}
+
+.challenge4 p {
+    position: relative;
+    bottom: -100px;
+    left: -62px;
+    font-size: 20px;
+    color: white;
+}
+
+.common-heading {
+    color: rgb(230, 6, 6);
+}
+
+.challenge-ai {
+    background-color: rgb(200, 213, 224);
+    border: 2px solid rgb(212, 196, 196);
+    border-radius: 5px;
 }
