@@ -151,48 +151,17 @@ header {
     background-color: #1D4ED8;
 }
 
-/* footer css */
-.footer-part {
-    background-color: #2abdf7;
-}
+/* challenging part css */
 
-.footer1 {
+.challenge-title {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-
-
-}
-
-.footer1 div a {
-    margin: 10px;
-}
-
-.footer1 div span {
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-
-.footer2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: center;
-    gap: 30px;
-}
-
-.footer3 {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    font-weight: 1000;
+    font-size: 32px;
+    color: rgb(110, 4, 4);
 }
 
-/* challenging part css */
 .challengeEvents {
     display: flex;
     justify-content: center;
@@ -297,11 +266,43 @@ header {
     color: rgb(4, 66, 46);
 }
 
-.challenge-title {
+/* footer css */
+.footer-part {
+    background-color: #4692b1;
+}
+
+.footer1 {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.footer1 div a {
+    margin: 10px;
+}
+
+.footer1 div span {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: 1000;
-    font-size: 32px;
-    color: rgb(110, 4, 4);
+    margin: 40px;
 }
